@@ -23,7 +23,7 @@
 }
 
 .todo-item-checkbox::before {
-  content: url(./images/done.svg);
+  content: url(./../images/done.svg);
   display: none;
   block-size: 18px;
   margin: auto;
