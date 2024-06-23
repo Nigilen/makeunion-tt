@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "profile, todo, users",
   "main": "index.js",
+  "homepage": "https://nigilen.github.io/makeunion-tt/",
   "scripts": {
     "build": "gulp build",
     "dev": "gulp",
