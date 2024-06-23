@@ -1,0 +1,17 @@
+extends ../layouts/default.pug
+
+block variables
+  - var pageStylesheet = "/styles/users.css";
+  - var pageScript = "/scripts/users.js";
+
+block content
+  include ../components/header/header
+  main.main
+    h1.page-title Пользователи
+    section.users
+      ul.users-list
+        
+
+      
+  include ../components/user-card-tpl/user-card-tpl
+  include ../components/footer/footer

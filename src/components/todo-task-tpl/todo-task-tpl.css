@@ -1,0 +1,70 @@
+.todo-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.todo-del-btn {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.todo-item:hover .todo-del-btn {
+  opacity: 1;
+}
+
+.todo-item-checkbox {
+  display: flex;
+  border-radius: 8px;
+  min-inline-size: 20px;
+  min-block-size: 20px;
+  border: 2px solid #d3d3d3;
+}
+
+.todo-item-checkbox::before {
+  content: url(./images/done.svg);
+  display: none;
+  block-size: 18px;
+  margin: auto;
+}
+
+.todo-item-text {
+  font-size: 18px;
+}
+
+.todo-item-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.todo-item-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+}
+
+.todo-item-input[type='checkbox'] {
+  display: none;
+}
+
+.todo-item-input[type='checkbox']:checked + .todo-item-checkbox::before {
+  display: block;
+}
+
+.todo-item-input[type='checkbox']:checked ~ .todo-item-text {
+  text-decoration: line-through;
+}
+
+.todo-item:has(.todo-item-input[type='checkbox']:checked) {
+  opacity: 0.3;
+}
+
+@media (width < 900px) {
+  .todo-item-text {
+    font-size: 16px;
+  }
+}

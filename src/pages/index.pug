@@ -1,0 +1,33 @@
+extends ../layouts/default.pug
+
+block variables
+  - var pageStylesheet = "/styles/index.css";
+
+block content
+  include ../components/header/header
+  main.main
+    h1.page-title Мой профиль
+    section.profile-about
+      picture.profile-avatar 
+        source(type="image/avif" media="(width <= 375px)" srcset="./images/test-avatar-m.avif")
+        source(type="image/avif" srcset="./images/test-avatar-d.avif")
+        source(type="image/webp" media="(width <= 375px)" srcset="./images/test-avatar-m.webp")
+        source(type="image/webp" srcset="./images/test-avatar-d.webp")
+        source(type="image/png" media="(width <= 375px)" srcset="./images/test-avatar-m.png")
+        img(src="./images/test-avatar-d.png" width="620" height="620" alt="Аватар пользователя Ванилопа" loading="lazy").profile-avatar-img
+      dl.profile-info-list
+        div.profile-info-item.profile-info-list--name
+          dt.info-item-term Имя
+          dd.info-item-desc Ванилопа фон Кекс 
+        div.profile-info-item.profile-info-list--about
+          dt.info-item-term О себе
+          dd.info-item-desc Я самая быстрая гонщица в мире! Однажды я попала в реальный мир из компьютерной игры, где участвовала в гонках. Там я познакомилась с Ральфом, героем с волшебным молотком, который помог мне вернуться в мир игр. Теперь я снова участвую в гонках, но уже в реальном мире. Приходите посмотреть на мои соревнования, вы не пожалеете!
+        div.profile-info-item.profile-info-list--email
+          dt.info-item-term Почта
+          dd.info-item-desc
+            a(href="mailto:vaniagluk@yandex.ru" type="email") vaniagluk@yandex.ru
+        div.profile-info-item.profile-info-list--phone
+          dt.info-item-term Телефон
+          dd.info-item-desc
+            a(href="tel:+79521179309" type="phone") +7 (952) 117-93-09
+  include ../components/footer/footer

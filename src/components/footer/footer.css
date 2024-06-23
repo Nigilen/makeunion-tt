@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #adadad;
+}

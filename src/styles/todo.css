@@ -1,0 +1,60 @@
+@import url(../components/todo-task-tpl/todo-task-tpl.css);
+
+.todo {
+  display: grid;
+  gap: 50px;
+  max-inline-size: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.todo-list {
+  display: grid;
+  gap: 34px;
+}
+
+.todo-add-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+}
+
+.todo-add-input {
+  font-family: inherit;
+  font-weight: 200;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+}
+
+.todo-add-input::placeholder {
+  font-family: inherit;
+  font-weight: 200;
+  color: #b6b6b6;
+}
+
+.todo-add-button {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  border-radius: 100px;
+  padding: 30px;
+  inline-size: 1px;
+  block-size: 1px;
+  cursor: pointer;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.todo-add-button:hover {
+  background-color: #b6b6b6;
+}
+
+@media (width < 900px) {
+  .todo {
+    padding: 50px 10px;
+  }
+}

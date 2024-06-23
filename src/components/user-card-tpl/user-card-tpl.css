@@ -1,0 +1,47 @@
+.users-item {
+  display: grid;
+  inline-size: 300px;
+  aspect-ratio: 1 / 1;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow:
+    10px 10px 30px 0 #aeaec066,
+    -10px -10px 30px 0 #fff;
+  justify-items: center;
+  padding: 50px 10px 30px;
+}
+
+.user-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #d3d3d3;
+  margin: 0;
+}
+
+.user-button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 0px;
+  padding: 0 30px;
+  background-color: #d9e8ff;
+  border: none;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.user-button:hover {
+  box-shadow:
+    -5px -5px 10px 0 #fafbff,
+    5px 5px 10px 0 #161b1d4d;
+}
+
+@media (width < 900px) {
+  .todo-item-text {
+    font-size: 16px;
+  }
+}

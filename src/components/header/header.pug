@@ -1,0 +1,23 @@
+header.header 
+  nav.nav
+    a(href="./").logo
+      img(src="./images/logo.svg", alt="Логотип Makeunion").logo-img
+    ul.nav-list 
+      li.nav-item
+        a(href="/").nav-link 
+          svg.nav-link-icon
+            use(xlink:href="#profile-icon")        
+          //- img(src="./images/profile-icon.svg", alt="").nav-link-icon
+          span Профиль
+      li.nav-item
+        a(href="/todo.html").nav-link 
+          svg.nav-link-icon
+            use(xlink:href="#todo-icon")
+          //- img(src="./images/todo-icon.svg", alt="").nav-link-icon
+          span Задачи
+      li.nav-item
+        a(href="/users.html").nav-link
+          svg.nav-link-icon
+            use(xlink:href="#users-icon")
+          //- img(src="./images/users-icon.svg", alt="").nav-link-icon
+          span Пользователи
