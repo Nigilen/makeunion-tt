@@ -18,7 +18,7 @@ loadPosts.then((data) => {
 
     userName.textContent = i.firstname.concat(' ', i.lastname);
     userEmail.textContent = i.email;
-    btn.href = '/user-details.html?id=' + i.id;
+    btn.href = 'user-details.html?id=' + i.id;
 
     ul.appendChild(element);
   });
