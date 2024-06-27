@@ -1,8 +1,6 @@
 # Тестовое задание для [Makeunion](https://makeunion.ru) (оригинальный текст)
 
-они же: [yoolip](https://yoolip.ru/) (судя по данным в hh)
-
-![image](https://github.com/Nigilen/makeunion-tt/assets/38656496/5b48465c-d16d-4792-bdfa-6c3d4303fca8)
+они же: [yoolip](https://yoolip.ru/) (судя по данным в [hh](https://github.com/Nigilen/makeunion-tt/assets/38656496/5b48465c-d16d-4792-bdfa-6c3d4303fca8))
 
 ---
 
