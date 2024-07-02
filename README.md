@@ -1,6 +1,6 @@
 # Тестовое задание для [Makeunion](https://makeunion.ru) (оригинальный текст)
 
-они же — [yoolip](https://yoolip.ru/), судя по данным в hh ([скрин](https://github.com/Nigilen/makeunion-tt/assets/38656496/5b48465c-d16d-4792-bdfa-6c3d4303fca8))
+![image](https://github.com/Nigilen/makeunion-tt/assets/38656496/c534c94b-b9c2-4902-a92d-d41164e20630)
 
 ---
 
