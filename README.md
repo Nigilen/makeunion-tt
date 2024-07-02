@@ -1,6 +1,6 @@
 # Тестовое задание для [Makeunion](https://makeunion.ru) (оригинальный текст)
 
-<img src="https://github.com/Nigilen/makeunion-tt/assets/38656496/c534c94b-b9c2-4902-a92d-d41164e20630" width="100%" align="center"/>
+<img src="https://github.com/Nigilen/makeunion-tt/assets/38656496/c534c94b-b9c2-4902-a92d-d41164e20630" width="100%"/>
 
 ---
 
